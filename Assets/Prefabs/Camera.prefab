@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2962753658406378257}
   - component: {fileID: 716330775547067905}
   - component: {fileID: 5617655998204277601}
-  - component: {fileID: 8931493897592267611}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -128,19 +127,6 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &8931493897592267611
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 980447340847690130}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b191559a86b10b43a5c8374ef709e46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ykasatel: {fileID: 2031667696520589743, guid: 4eeea9a11d881704c8021c370fdd47c0, type: 3}
 --- !u!1 &3199037337769790638
 GameObject:
   m_ObjectHideFlags: 0
@@ -336,9 +322,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 0.02
-  zoom: 0.8
-  MaxZoom: -1
-  MinZoom: 25
 --- !u!1 &7919848982203238074
 GameObject:
   m_ObjectHideFlags: 0
