@@ -6,9 +6,9 @@ using UnityEngine.SocialPlatforms.Impl;
 public class resourcecounter : MonoBehaviour
 {
     public int resource = 0;
-    //private int a = resource + number;
     public float Second = 1f;
     public int number = 1;
+    //private int resource = resource + number;
     private Coroutine MyCoroutin;
 
 

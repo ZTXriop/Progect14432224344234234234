@@ -4,5 +4,9 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: "Assets/Scenes/\u0421ontinent/chunks/summer chunks/mountain/summer mountain
+      1.unity"
+    guid: 70b8cf161f43e3e459e27f2cbc688007
   m_configObjects: {}
