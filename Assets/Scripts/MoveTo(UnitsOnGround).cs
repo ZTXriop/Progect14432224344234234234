@@ -1,31 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Mouse : MonoBehaviour
+using UnityEngine.AI;
+public class MoveTo : MonoBehaviour
 {
-    public GameObject ykasatel;
-    private Camera cam;
-
+    //  омпонент агента
+    NavMeshAgent agent;
     void Start()
     {
-        cam = Camera.main;
-        
+        // —охранение компонента агента
+        agent = GetComponent<NavMeshAgent>();
     }
-    
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(1))
         {
-            // сюда запишетс€ инфо о пересечении луча, если оно будет
             RaycastHit hit;
-            // сам луч, начинаетс€ от позиции камеры походу и направлен в сторону курсора
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            // пускаем луч
             Physics.Raycast(ray, out hit);
             if (Physics.Raycast(ray, out hit))
             {
-                
+                agent.destination = hit.point;
             }
         }
     }
