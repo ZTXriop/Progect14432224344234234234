@@ -18,5 +18,8 @@ public class Ballistic : MonoBehaviour
         Vector3 fromToXZ = new Vector3(fromTo.x, 0f,  fromTo.z);
         transform.rotation = Quaternion.LookRotation(fromToXZ, Vector3.up);
 
+        Vector3 rotate = SpawnTransform.eulerAngles;
+        rotate.x = -AngleInDegress;
+        SpawnTransform.rotation = Quaternion.Euler(rotate);
     }
 }

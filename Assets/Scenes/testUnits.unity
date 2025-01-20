@@ -233,6 +233,10 @@ PrefabInstance:
       value: 4.2
       objectReference: {fileID: 0}
     - target: {fileID: 3862668048732492472, guid: d863e64366df74046970dfc060d7c2f3, type: 3}
+      propertyPath: AngleInDegress
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862668048732492472, guid: d863e64366df74046970dfc060d7c2f3, type: 3}
       propertyPath: TargetTransform
       value: 
       objectReference: {fileID: 1905305424}
