@@ -2166,6 +2166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb095b1952337c439a9973dbab5a3df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Bullet: {fileID: 3449085463255754651, guid: 0bfe367cad453b34fabf2f7bf7a7d8e7, type: 3}
   SpawnTransform: {fileID: 1203794930757809509}
   TargetTransform: {fileID: 0}
   AngleInDegress: 0
