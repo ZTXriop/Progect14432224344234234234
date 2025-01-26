@@ -11,6 +11,7 @@ public class Ballistic : MonoBehaviour
 
     public float AngleInDegress;
     float g = Physics.gravity.y;
+    public float V;
 
     void Start()
     {
@@ -47,4 +48,5 @@ public class Ballistic : MonoBehaviour
         GameObject newBullet = Instantiate(Bullet, SpawnTransform.position, Quaternion.identity);
         newBullet.GetComponent<Rigidbody>().velocity = SpawnTransform.forward * v;
     }
+    
 }
