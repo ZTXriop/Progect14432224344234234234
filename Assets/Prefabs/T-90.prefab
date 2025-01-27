@@ -2167,11 +2167,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04f22e055105dbb4897d1fd9b38df596, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Bullet: {fileID: 3050259169649679212, guid: ea087898ebc8d0f4ba0237176b4617dc, type: 3}
+  Bullet: {fileID: 8231704714426620576, guid: ea087898ebc8d0f4ba0237176b4617dc, type: 3}
   SpawnTransform: {fileID: 9103771308428949204}
   TargetTransform: {fileID: 0}
   AngleInDegress: 0
   speed: 10
+  noticed: 0
 --- !u!1 &1198395503225994699
 GameObject:
   m_ObjectHideFlags: 0

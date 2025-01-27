@@ -11,6 +11,6 @@ public class Bullet : MonoBehaviour
     }
     void FixedUpdate()
     {
-        transform.position += new Vector3(0f, 0f, Speed);
+        transform.localPosition += new Vector3(0f, 0f, Speed);
     }
 }
